@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>পানিগোবরা আজীজিয়া হিফজুল ক্বোরআন মাদ্রাসা</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f0fdf4; margin: 0; }
+    header { background: #047857; color: white; padding: 20px; text-align: center; }
+    main { max-width: 800px; margin: auto; padding: 20px; }
+    section { background: white; margin-bottom: 20px; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    input, button { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+    button { background: #10b981; color: white; border: none; cursor: pointer; }
+    footer { text-align: center; padding: 10px; color: gray; }
+    .gallery img { width: 100px; border-radius: 8px; margin: 5px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>পানিগোবরা আজীজিয়া হিফজুল ক্বোরআন মাদ্রাসা</h1>
+    <p>আধুনিক ইসলামি শিক্ষা কেন্দ্র</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🎫 এডমিট কার্ড ডাউনলোড</h2>
+      <input type="text" placeholder="নাম লিখুন" />
+      <input type="text" placeholder="শ্রেণি লিখুন" />
+      <button onclick="alert('এডমিট তৈরি হয়েছে')">এডমিট তৈরি করুন</button>
+    </section>
+
+    <section>
+      <h2>🖼️ গ্যালারি</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/100" />
+        <img src="https://via.placeholder.com/100" />
+      </div>
+    </section>
+
+    <section>
+      <h2>📢 নোটিশ বোর্ড</h2>
+      <ul>
+        <li>📅 ১ জুলাই - অর্ধবার্ষিক পরীক্ষা শুরু</li>
+        <li>📜 ২০ জুলাই - রেজাল্ট প্রকাশ</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📞 যোগাযোগ</h2>
+      <p>ঠিকানা: পানিগোবরা, ফেনী</p>
+      <p>মোবাইল: ০১৭xxxxxxxx</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; ২০২৫ পানিগোবরা আজীজিয়া হিফজুল ক্বোরআন মাদ্রাসা
+  </footer>
+
+</body>
+</html>
